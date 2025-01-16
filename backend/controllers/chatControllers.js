@@ -2,9 +2,6 @@ const asyncHandler = require("express-async-handler");
 const Chat = require("../models/chatModel");
 const User = require("../models/userModel");
 
-//Create or fetch One to One Chat
-//POST /api/chat/
-//Protected
 const accessChat = asyncHandler(async (req, res) => {
   const { userId } = req.body;
 
