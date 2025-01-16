@@ -10,7 +10,7 @@ const ChatProvider = ({ children }) => {
   const [chats, setChats] = useState([]);
 
   const history = useHistory();
-
+  
   useEffect(() => {
     console.log("hello duniya");
     const userInfo = JSON.parse(localStorage.getItem("userInfo"));
