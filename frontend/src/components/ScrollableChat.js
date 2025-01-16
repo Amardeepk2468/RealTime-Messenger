@@ -50,4 +50,5 @@ const ScrollableChat = ({ messages }) => {
   );
 };
 
+
 export default ScrollableChat;
